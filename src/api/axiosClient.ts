@@ -7,7 +7,11 @@ import { toast } from "react-toastify";
 
 // Create axios instance
 const api = axios.create({
-  baseURL: "http://192.168.5.8/api",
+  // baseURL: "http://192.168.5.8/api",
+
+  baseURL: "http://192.168.1.25:5056/api",
+
+
   timeout: 90000,
 });
 
